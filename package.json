@@ -1,0 +1,30 @@
+{
+  "name": "backendrestful",
+  "version": "1.0.0",
+  "description": "back end restful hoi dan it",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VuongNam1511/Backend-RESTFul-Server-Node.JS-SQLMongoDB-.git"
+  },
+  "keywords": [
+    "back",
+    "end",
+    "restful",
+    "node",
+    "js"
+  ],
+  "author": "Vuong Nam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VuongNam1511/Backend-RESTFul-Server-Node.JS-SQLMongoDB-/issues"
+  },
+  "homepage": "https://github.com/VuongNam1511/Backend-RESTFul-Server-Node.JS-SQLMongoDB-#readme",
+  "dependencies": {
+    "express": "4.18.2"
+  }
+}
