@@ -12,9 +12,13 @@ const hostname = process.env.HOST_NAME;
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs')
 
+// config static files
+// app.use(express.static('public'))
+app.use(express.static(path.join(__dirname, 'public')));
+
 // Khai báo route
 app.get('/', (req, res) => {
-    res.send('Hello World!')
+    res.send('Hello World! after install nodemon')
 })
 
 app.get('/homepage', (req, res) => {
