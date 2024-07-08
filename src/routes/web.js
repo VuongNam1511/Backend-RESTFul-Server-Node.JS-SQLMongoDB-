@@ -1,18 +1,13 @@
 const express = require('express');
-
+const { getHomepage, getH1text, getImgpage } = require('../controllers/homeController');
 const router = express.Router();
 
-router.get('/', (req, res) => {
-    res.send('Hello World! after install nodemon')
-})
+// router/Method('/route', handler)
 
-router.get('/homepage', (req, res) => {
-    // res.send('Chào mừng đến với trang củ của Vương Nam')
-    res.render('sample.ejs')
-})
+router.get('/', getHomepage);
 
-router.get('/h1text', (req, res) => {
-    res.send('<h1> Chào mừng đến với trang củ của Vương Nam <h1>')
-})
+router.get('/h1text', getH1text);
+
+router.get('/homepage', getImgpage);
 
 module.exports = router; //export default
