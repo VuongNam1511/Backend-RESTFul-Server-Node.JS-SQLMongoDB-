@@ -1,2 +1,4 @@
-node_modules
+# Những file được ghi dưới đây sẽ ko được đẩy lên github
 
+node_modules
+# .env
